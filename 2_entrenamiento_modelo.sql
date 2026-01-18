@@ -8,6 +8,6 @@ SELECT
   fecha,
   SUM(cantidad) as total_ventas
 FROM
-  `ventas_retail.historial_ventas_limpio`
+  `ventas_retail.historial_ventas`
 GROUP BY
   fecha;
